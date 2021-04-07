@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.qa.test.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 58.112 s <<< FAILURE! - in com.qa.test.TestRunner
-Then User redirected to Home Page(Scenario: Check Login functionality with valid credentials)  Time elapsed: 0.008 s  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 57.291 s <<< FAILURE! - in com.qa.test.TestRunner
+Then User redirected to Home Page(Scenario: Check Login functionality with valid credentials)  Time elapsed: 0.005 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<([1]) Facebook> but was:<([20+]) Facebook>
 
-Scenario: Check Login functionality with valid credentials  Time elapsed: 0.011 s  <<< FAILURE!
+Scenario: Check Login functionality with valid credentials  Time elapsed: 0.005 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<([1]) Facebook> but was:<([20+]) Facebook>
 
