@@ -7,11 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.java.After;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import cucumber.api.java.en.Then;
 
 public class FacebookLogin {
@@ -21,7 +23,9 @@ public class FacebookLogin {
 	
 	@Before
 	public void setUp() throws Throwable{
-		        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
+		        //System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
+				WebDriverManager.chromedriver().setup();
+				//driver = new ChromeDriver();
 		        driver = new ChromeDriver();
 		        driver.manage().window().maximize();
 	}  

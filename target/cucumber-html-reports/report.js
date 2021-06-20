@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1989598300,
+  "duration": 79787780599,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,26 +37,25 @@ formatter.match({
   "location": "FacebookLogin.navigate_to_facebook_login_page()"
 });
 formatter.result({
-  "duration": 4032443800,
+  "duration": 14695402301,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookLogin.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 234229100,
+  "duration": 290905400,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookLogin.user_redirected_to_home_page()"
 });
 formatter.result({
-  "duration": 50014365200,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c([1]) Facebook\u003e but was:\u003c([20+]) Facebook\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.FacebookLogin.user_redirected_to_home_page(FacebookLogin.java:48)\r\n\tat ✽.Then User redirected to Home Page(Login.feature:6)\r\n",
-  "status": "failed"
+  "duration": 50036865000,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 685866300,
+  "duration": 693172800,
   "status": "passed"
 });
 });

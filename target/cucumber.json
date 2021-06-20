@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1989598300,
+              "duration": 79787780599,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 685866300,
+              "duration": 693172800,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4032443800,
+              "duration": 14695402301,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 234229100,
+              "duration": 290905400,
               "status": "passed"
             },
             "line": 5,
@@ -58,9 +58,8 @@
           },
           {
             "result": {
-              "duration": 50014365200,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c([1]) Facebook\u003e but was:\u003c([20+]) Facebook\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.FacebookLogin.user_redirected_to_home_page(FacebookLogin.java:48)\r\n\tat ✽.Then User redirected to Home Page(Login.feature:6)\r\n",
-              "status": "failed"
+              "duration": 50036865000,
+              "status": "passed"
             },
             "line": 6,
             "name": "User redirected to Home Page",
